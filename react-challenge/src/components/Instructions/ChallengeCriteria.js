@@ -9,7 +9,7 @@ function ChallengeCriteria({ title, subtext, criteria }) {
       <h4>Acceptance Criteria</h4>
       <ul>
         {criteria.map((text, index) => (
-          <li>{text}</li>
+          <li key={index}>{text}</li>
         ))}
       </ul>
     </li>
