@@ -4,7 +4,7 @@ import './index.style.css';
 
 function Button({ children, onClick }) {
   return (
-    <button className="btn" onClick={onClick}>
+    <button className="btn" data-testid='btn' onClick={onClick}>
       {children}
     </button>
   );

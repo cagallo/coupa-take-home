@@ -11,7 +11,7 @@ function App() {
         <Header />
         <div className="container-fluid">
           <Switch>
-            <Route path="/search">
+            <Route path="/search" >
               <FlightSearch />
             </Route>
             <Route path="/">
